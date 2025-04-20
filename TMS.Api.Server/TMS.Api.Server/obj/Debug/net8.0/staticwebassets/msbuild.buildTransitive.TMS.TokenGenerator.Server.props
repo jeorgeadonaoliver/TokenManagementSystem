@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\TMS.TokenGenerator.Server.props" />
+</Project>

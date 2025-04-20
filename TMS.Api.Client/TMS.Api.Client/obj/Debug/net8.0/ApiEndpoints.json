@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "TMS.Api.Client.Controllers.AuthenticationController",
+    "Method": "StartAuthentication",
+    "RelativePath": "api/Authentication/StartAuthentication",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

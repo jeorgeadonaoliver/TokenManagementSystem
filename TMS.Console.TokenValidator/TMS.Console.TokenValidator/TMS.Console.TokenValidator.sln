@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMS.Console.TokenValidator", "TMS.Console.TokenValidator.csproj", "{5F43A3A8-5802-447C-A626-1661D3929776}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F43A3A8-5802-447C-A626-1661D3929776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F43A3A8-5802-447C-A626-1661D3929776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F43A3A8-5802-447C-A626-1661D3929776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F43A3A8-5802-447C-A626-1661D3929776}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E5BB7D2-33F2-4497-BBB2-AB34D07CE836}
+	EndGlobalSection
+EndGlobal

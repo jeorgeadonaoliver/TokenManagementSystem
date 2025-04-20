@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "AyrqzRG3htnqzURkaZOjx2F6f0XJKIwK2pYMsM8k0Yw=",
+  "Source": "TMS.Api.Client",
+  "BasePath": "_content/TMS.Api.Client",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

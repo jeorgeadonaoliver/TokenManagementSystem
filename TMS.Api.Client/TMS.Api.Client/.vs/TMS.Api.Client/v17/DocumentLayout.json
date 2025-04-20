@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jeorge Oliver\\source\\GitProjects\\TokenManagerSystem\\TMS.Api.Client\\TMS.Api.Client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{314D128A-46FF-43D6-952A-BFA613A5FBAC}|TMS.Api.Client.csproj|c:\\users\\jeorge oliver\\source\\gitprojects\\tokenmanagersystem\\tms.api.client\\tms.api.client\\service\\interactivebackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{314D128A-46FF-43D6-952A-BFA613A5FBAC}|TMS.Api.Client.csproj|solutionrelative:service\\interactivebackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314D128A-46FF-43D6-952A-BFA613A5FBAC}|TMS.Api.Client.csproj|c:\\users\\jeorge oliver\\source\\gitprojects\\tokenmanagersystem\\tms.api.client\\tms.api.client\\service\\hostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{314D128A-46FF-43D6-952A-BFA613A5FBAC}|TMS.Api.Client.csproj|solutionrelative:service\\hostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314D128A-46FF-43D6-952A-BFA613A5FBAC}|TMS.Api.Client.csproj|c:\\users\\jeorge oliver\\source\\gitprojects\\tokenmanagersystem\\tms.api.client\\tms.api.client\\service\\startupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{314D128A-46FF-43D6-952A-BFA613A5FBAC}|TMS.Api.Client.csproj|solutionrelative:service\\startupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314D128A-46FF-43D6-952A-BFA613A5FBAC}|TMS.Api.Client.csproj|c:\\users\\jeorge oliver\\source\\gitprojects\\tokenmanagersystem\\tms.api.client\\tms.api.client\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{314D128A-46FF-43D6-952A-BFA613A5FBAC}|TMS.Api.Client.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314D128A-46FF-43D6-952A-BFA613A5FBAC}|TMS.Api.Client.csproj|c:\\users\\jeorge oliver\\source\\gitprojects\\tokenmanagersystem\\tms.api.client\\tms.api.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{314D128A-46FF-43D6-952A-BFA613A5FBAC}|TMS.Api.Client.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HostedService.cs",
+              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\GitProjects\\TokenManagerSystem\\TMS.Api.Client\\TMS.Api.Client\\Service\\HostedService.cs",
+              "RelativeDocumentMoniker": "Service\\HostedService.cs",
+              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\GitProjects\\TokenManagerSystem\\TMS.Api.Client\\TMS.Api.Client\\Service\\HostedService.cs",
+              "RelativeToolTip": "Service\\HostedService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T04:02:15.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\GitProjects\\TokenManagerSystem\\TMS.Api.Client\\TMS.Api.Client\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\GitProjects\\TokenManagerSystem\\TMS.Api.Client\\TMS.Api.Client\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwBcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:43:07.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\GitProjects\\TokenManagerSystem\\TMS.Api.Client\\TMS.Api.Client\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\GitProjects\\TokenManagerSystem\\TMS.Api.Client\\TMS.Api.Client\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:02:08.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InteractiveBackgroundService.cs",
+              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\GitProjects\\TokenManagerSystem\\TMS.Api.Client\\TMS.Api.Client\\Service\\InteractiveBackgroundService.cs",
+              "RelativeDocumentMoniker": "Service\\InteractiveBackgroundService.cs",
+              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\GitProjects\\TokenManagerSystem\\TMS.Api.Client\\TMS.Api.Client\\Service\\InteractiveBackgroundService.cs",
+              "RelativeToolTip": "Service\\InteractiveBackgroundService.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAmwDQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T13:56:12.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StartUpService.cs",
+              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\GitProjects\\TokenManagerSystem\\TMS.Api.Client\\TMS.Api.Client\\Service\\StartUpService.cs",
+              "RelativeDocumentMoniker": "Service\\StartUpService.cs",
+              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\GitProjects\\TokenManagerSystem\\TMS.Api.Client\\TMS.Api.Client\\Service\\StartUpService.cs",
+              "RelativeToolTip": "Service\\StartUpService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T13:38:30.718Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

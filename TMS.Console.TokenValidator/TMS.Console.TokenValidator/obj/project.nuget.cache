@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "nHZ+RoGv2szcFXpAFXKbWeCJTATdpedcfcsIMv3kzYmTu5VVq4e1Jw+HaIw+CQ8Xj+0dLNV80Bz17Tg6OK3u0Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jeorge Oliver\\source\\GitProjects\\TokenManagerSystem\\TMS.Console.TokenValidator\\TMS.Console.TokenValidator\\TMS.Console.TokenValidator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\microsoft.bcl.memory\\9.0.0\\microsoft.bcl.memory.9.0.0.nupkg.sha512",
+    "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.8.0\\microsoft.identitymodel.abstractions.8.8.0.nupkg.sha512",
+    "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.8.0\\microsoft.identitymodel.jsonwebtokens.8.8.0.nupkg.sha512",
+    "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\microsoft.identitymodel.logging\\8.8.0\\microsoft.identitymodel.logging.8.8.0.nupkg.sha512",
+    "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.8.0\\microsoft.identitymodel.tokens.8.8.0.nupkg.sha512",
+    "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.8.0\\system.identitymodel.tokens.jwt.8.8.0.nupkg.sha512"
+  ],
+  "logs": []
+}

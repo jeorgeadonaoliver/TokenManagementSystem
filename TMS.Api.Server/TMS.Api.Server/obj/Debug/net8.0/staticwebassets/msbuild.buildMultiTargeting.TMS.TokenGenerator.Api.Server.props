@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TMS.TokenGenerator.Api.Server.props" />
+</Project>

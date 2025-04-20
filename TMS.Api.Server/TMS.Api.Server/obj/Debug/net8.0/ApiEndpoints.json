@@ -1,0 +1,22 @@
+[
+  {
+    "ContainingType": "TMS.TokenGenerator.Server.Controllers.AuthorizationController",
+    "Method": "Authorize",
+    "RelativePath": "connect/authorize",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMS.TokenGenerator.Server.Controllers.AuthorizationController",
+    "Method": "Authorize",
+    "RelativePath": "connect/authorize",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

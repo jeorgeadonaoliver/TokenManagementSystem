@@ -1,0 +1,6 @@
+@TMS.TokenGenerator.Server_HostAddress = http://localhost:5064
+
+GET {{TMS.TokenGenerator.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

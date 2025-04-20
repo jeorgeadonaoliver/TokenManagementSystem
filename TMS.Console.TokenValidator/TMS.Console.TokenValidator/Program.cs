@@ -1,0 +1,32 @@
+﻿// See https://aka.ms/new-console-template for more information
+using System.IdentityModel.Tokens.Jwt;
+
+Console.WriteLine("Hello, World!");
+
+
+
+string token = "eyJhbGciOiJSUzI1NiIsImtpZCI6IkQyMkUzRUYyQUQwMEJGRjU4NTUyMDkwMzc4RTlGNTU3NzkyNjg5OEEiLCJ4NXQiOiIwaTQtOHEwQXZfV0ZVZ2tEZU9uMVYza21pWW8iLCJ0eXAiOiJhdCtqd3QifQ.eyJpc3MiOiJodHRwczovL2xvY2FsaG9zdDo3MTAxLyIsImV4cCI6MTc0NDk1NDc4MywiaWF0IjoxNzQ0OTUxMTgzLCJzY29wZSI6Im9wZW5pZCIsImp0aSI6ImY1ZmQwMmQyLWIxZDMtNDI5YS1iZTBiLTAyMTI2NzRhZjNkYSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJKRU9SR0VPTElWRVItTEFcXEplb3JnZSBPbGl2ZXIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3ByaW1hcnlzaWQiOiJTLTEtNS0yMS0zNDgyNjI3OTIxLTE3NjM4OTM3MjUtMTY3MjEwNDc2OC0xMDAxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9wcmltYXJ5Z3JvdXBzaWQiOiJTLTEtNS0yMS0zNDgyNjI3OTIxLTE3NjM4OTM3MjUtMTY3MjEwNDc2OC01MTMiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL2dyb3Vwc2lkIjpbIlMtMS01LTIxLTM0ODI2Mjc5MjEtMTc2Mzg5MzcyNS0xNjcyMTA0NzY4LTUxMyIsIlMtMS0xLTAiLCJTLTEtNS0zMi01NTkiLCJTLTEtNS0zMi01NDUiLCJTLTEtNS00IiwiUy0xLTItMSIsIlMtMS01LTExIiwiUy0xLTUtMTUiLCJTLTEtNS0xMTMiLCJTLTEtMi0wIiwiUy0xLTUtNjQtMTAiXSwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZGVueW9ubHlzaWQiOlsiUy0xLTUtMTE0IiwiUy0xLTUtMzItNTQ0Il0sInN1YiI6IlMtMS01LTIxLTM0ODI2Mjc5MjEtMTc2Mzg5MzcyNS0xNjcyMTA0NzY4LTEwMDEiLCJnZW5kZXIiOiJpZGVudGlmaWVkIGFzIG1lbiIsIm9pX3Byc3QiOiJjb25zb2xlX2FwcCIsIm9pX2F1X2lkIjoiNjlhNzJiZDItY2ZmZC00YTUxLTkzZjQtMDdiYjUwM2Y2ZDQ5IiwiY2xpZW50X2lkIjoiY29uc29sZV9hcHAiLCJvaV90a25faWQiOiI1MGI3NzE1ZC1kZGQ4LTQwMzUtOTdkMy1lNjE4YmE4MzY2MWMifQ.eQln8G7oL2T8yXG2gJ4T7emD4C8aF5M3_mKXxA7akl3cPDOQTj_HEi722SDFsq13jwbM7FzuAptf2JRJaomLalhPE4SH6q0Xj8ttYkxLLIV9oOOan6y--PvxRFiFryKaUDr1x4bS7sOJCOrdK2QjAY3SkINvkfwje_ehTpcFl5kZdoGND6OtN-2PbSKgCNjFVrRBNFMsQaEolcRZaUoddw6_giARsMqjIA3anhOYlrMUf-qL6p7UpNG5nJ0otvSCQjNpJVdcvoSajyMtAS0wpO-qasMD5RhBwmVd39Ly2aVAJkLaA5qEU9nAQ6UdpZRD1__byMn6KzjqBCY-PNdZIw";
+
+var handler = new JwtSecurityTokenHandler();
+
+// Validate and decode the token
+if (handler.CanReadToken(token))
+{
+    var jwtToken = handler.ReadJwtToken(token);
+
+    Console.WriteLine("Claims:");
+    foreach (var claim in jwtToken.Claims)
+    {
+        Console.WriteLine($"{claim.Type}: {claim.Value}");
+    }
+
+    Console.WriteLine();
+    Console.WriteLine("Token Details:");
+    Console.WriteLine($"Issuer: {jwtToken.Issuer}");
+    Console.WriteLine($"Audience: {jwtToken.Audiences.FirstOrDefault()}");
+    Console.WriteLine($"Expiration: {jwtToken.ValidTo}");
+}
+else
+{
+    Console.WriteLine("Invalid token!");
+}

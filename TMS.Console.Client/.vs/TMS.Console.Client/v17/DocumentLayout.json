@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jeorge Oliver\\source\\GitProjects\\TokenManagerSystem\\TMS.Console.Client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2341A27-A93F-48EF-B07D-6622F9D015B3}|TMS.Console.Client.csproj|c:\\users\\jeorge oliver\\source\\gitprojects\\tokenmanagersystem\\tms.console.client\\interactiveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2341A27-A93F-48EF-B07D-6622F9D015B3}|TMS.Console.Client.csproj|solutionrelative:interactiveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2341A27-A93F-48EF-B07D-6622F9D015B3}|TMS.Console.Client.csproj|c:\\users\\jeorge oliver\\source\\gitprojects\\tokenmanagersystem\\tms.console.client\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2341A27-A93F-48EF-B07D-6622F9D015B3}|TMS.Console.Client.csproj|solutionrelative:worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2341A27-A93F-48EF-B07D-6622F9D015B3}|TMS.Console.Client.csproj|c:\\users\\jeorge oliver\\source\\gitprojects\\tokenmanagersystem\\tms.console.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2341A27-A93F-48EF-B07D-6622F9D015B3}|TMS.Console.Client.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\GitProjects\\TokenManagerSystem\\TMS.Console.Client\\Worker.cs",
+              "RelativeDocumentMoniker": "Worker.cs",
+              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\GitProjects\\TokenManagerSystem\\TMS.Console.Client\\Worker.cs",
+              "RelativeToolTip": "Worker.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T13:11:44.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\GitProjects\\TokenManagerSystem\\TMS.Console.Client\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\GitProjects\\TokenManagerSystem\\TMS.Console.Client\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAABAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T19:50:05.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InteractiveService.cs",
+              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\GitProjects\\TokenManagerSystem\\TMS.Console.Client\\InteractiveService.cs",
+              "RelativeDocumentMoniker": "InteractiveService.cs",
+              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\GitProjects\\TokenManagerSystem\\TMS.Console.Client\\InteractiveService.cs",
+              "RelativeToolTip": "InteractiveService.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwDoAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T18:52:12.737Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
