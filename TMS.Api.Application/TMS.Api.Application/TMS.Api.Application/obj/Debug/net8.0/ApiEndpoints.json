@@ -1,0 +1,22 @@
+[
+  {
+    "ContainingType": "TMS.Api.Application.Controllers.AuthenticateController",
+    "Method": "GetDataFrom7262Async",
+    "RelativePath": "api/Authenticate/GetDataFrom7262Async",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

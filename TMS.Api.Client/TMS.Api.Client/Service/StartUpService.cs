@@ -15,6 +15,8 @@ public class StartUpService
 
     public void ConfigureServices(IServiceCollection serviceCollection)
     {
+        //serviceCollection.AddHostedService<InteractiveBackgroundService>();
+        serviceCollection.AddSingleton<InteractiveBackgroundService>();
 
         //serviceCollection.AddControllersWithViews();
         serviceCollection.AddControllers();
@@ -73,6 +75,18 @@ public class StartUpService
                  });
              });
 
+        serviceCollection.AddHttpClient("TMS.Api.Application", 
+            client => { 
+                client.BaseAddress = new Uri("https://localhost:7264/"); 
+            }).ConfigurePrimaryHttpMessageHandler(() => 
+            {
+                return new HttpClientHandler
+                {
+                    ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator
+                };
+            });
+
+
         // Register the worker responsible for creating the database used to store tokens
         // and adding the registry entries required to register the custom URI scheme.
         //
@@ -90,6 +104,8 @@ public class StartUpService
 
         app.UseRouting();
         app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+
+
 
         //app.UseAuthentication();
         //app.UseAuthorization();

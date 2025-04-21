@@ -22,15 +22,9 @@ public class Startup
             // Configure the context to use sqlite.
             //options.UseSqlite($"Filename={Path.Combine(Path.GetTempPath(), "openiddict-weytta-server.sqlite3")}");
             options.UseSqlite($"Filename={Path.Combine(Path.GetTempPath(), "openiddict-jaoliver-server.sqlite3")}");
-
-            // Register the entity sets needed by OpenIddict.
-            // Note: use the generic overload if you need
-            // to replace the default OpenIddict entities.
             options.UseOpenIddict();
         });
 
-        // OpenIddict offers native integration with Quartz.NET to perform scheduled tasks
-        // (like pruning orphaned authorizations/tokens from the database) at regular intervals.
         services.AddQuartz(options =>
         {
             options.UseSimpleTypeLoader();
@@ -46,8 +40,6 @@ public class Startup
             .AddNegotiate();
 
         services.AddOpenIddict()
-
-
 
             // Register the OpenIddict core components.
             .AddCore(options =>

@@ -42,5 +42,34 @@ namespace TMS.Api.Client.Controllers
                 return StatusCode(500, $"An error occurred: {ex.Message}");
             }
         }
+
+        [HttpGet("GetToken")]
+        public async Task<IActionResult> GetToken(CancellationToken cancellationToken)
+        {
+            try
+            {
+                var result = await _interactiveService.StartAuthenticationAsync(cancellationToken);
+
+                if (result == null)
+                {
+                    return BadRequest("Authentication process failed.");
+                }
+
+                return Ok(new
+                {
+                    Message = "Authentication process initiated. Check logs for details.",
+                    //Nonce = result.Nonce
+                    Response = result
+                });
+            }
+            catch (OperationCanceledException)
+            {
+                return BadRequest("The authentication process was aborted.");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"An error occurred: {ex.Message}");
+            }
+        }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using OpenIddict.Client;
 using System.Runtime.InteropServices;
+using TMS.Api.Client.Model;
 using static OpenIddict.Abstractions.OpenIddictConstants;
 using static OpenIddict.Abstractions.OpenIddictExceptions;
 
@@ -10,6 +11,7 @@ public class InteractiveBackgroundService : BackgroundService
     private readonly IHostApplicationLifetime _lifetime;
     private readonly OpenIddictClientService _service;
 
+
     public InteractiveBackgroundService(
         IHostApplicationLifetime lifetime,
         OpenIddictClientService service)
@@ -18,13 +20,14 @@ public class InteractiveBackgroundService : BackgroundService
         _service = service;
     }
 
-    public async Task<string> StartAuthenticationAsync(CancellationToken cancellationToken) 
+    public async Task<AuthenticateModel> StartAuthenticationAsync(CancellationToken cancellationToken) 
     { 
         var result = await ExecuteAsync(cancellationToken);
-        return result.ToString();
+        //return result.ToString();
+        return result;
     }
 
-    protected override async Task<string> ExecuteAsync(CancellationToken stoppingToken)
+    protected override async Task<AuthenticateModel> ExecuteAsync(CancellationToken stoppingToken)
     {
         // Wait for the host to confirm that the application has started.
         //var source = new TaskCompletionSource<bool>();
@@ -60,30 +63,41 @@ public class InteractiveBackgroundService : BackgroundService
                 System.Console.WriteLine("{0}: {1}", claim.Type, claim.Value);
             }
 
+            AuthenticateModel _authenticateModel = new AuthenticateModel()
+            {
+                client_id = "TMS.Api.Client",
+                token = response.BackchannelAccessToken ?? response.FrontchannelAccessToken
+            };
+
             System.Console.WriteLine();
             System.Console.WriteLine("Access token:");
             System.Console.WriteLine();
             System.Console.WriteLine(response.BackchannelAccessToken ?? response.FrontchannelAccessToken);
 
-            return response.BackchannelAccessToken ?? response.FrontchannelAccessToken ?? "No Access token available.";
+            
+            return _authenticateModel;
+            //return response.BackchannelAccessToken ?? response.FrontchannelAccessToken ?? "No Access token available.";
         }
 
         catch (OperationCanceledException)
         {
             //System.Console.WriteLine("The authentication process was aborted.");
-            return "The authentication process was aborted.";
+            //return "The authentication process was aborted.";
+            throw;
         }
 
         catch (ProtocolException exception) when (exception.Error is Errors.AccessDenied)
         {
             //System.Console.WriteLine("The authorization was denied by the end user.");
-            return "The authorization was denied by the end user.";
+            //return "The authorization was denied by the end user.";
+            throw;
         }
 
         catch
         {
             //System.Console.WriteLine("An error occurred while trying to authenticate the user.");
-            return "An error occurred while trying to authenticate the user.";
+            //return "An error occurred while trying to authenticate the user.";
+            throw;
         }
     }
 }

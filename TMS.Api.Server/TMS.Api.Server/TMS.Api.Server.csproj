@@ -9,6 +9,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Negotiate" Version="8.0.15" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.4" />
+    <PackageReference Include="OpenIddict.Abstractions" Version="6.2.0" />
     <PackageReference Include="OpenIddict.AspNetCore" Version="6.2.0" />
     <PackageReference Include="OpenIddict.EntityFrameworkCore" Version="6.2.0" />
     <PackageReference Include="OpenIddict.Quartz" Version="6.2.0" />

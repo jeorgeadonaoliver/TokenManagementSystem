@@ -1,6 +1,16 @@
 [
   {
     "ContainingType": "TMS.Api.Client.Controllers.AuthenticationController",
+    "Method": "GetToken",
+    "RelativePath": "api/Authentication/GetToken",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TMS.Api.Client.Controllers.AuthenticationController",
     "Method": "StartAuthentication",
     "RelativePath": "api/Authentication/StartAuthentication",
     "HttpMethod": "POST",

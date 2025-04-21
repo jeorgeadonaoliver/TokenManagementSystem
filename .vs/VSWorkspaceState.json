@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\TMS.Api.Server",
+    "\\TMS.Api.Server\\TMS.Api.Server",
+    "\\TMS.Api.Server\\TMS.Api.Server\\Controllers"
+  ],
+  "SelectedNode": "\\TMS.Api.Server\\TMS.Api.Server\\Controllers\\AuthorizationController.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -10,6 +10,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.Negotiate": "8.0.15",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
+          "OpenIddict.Abstractions": "6.2.0",
           "OpenIddict.AspNetCore": "6.2.0",
           "OpenIddict.EntityFrameworkCore": "6.2.0",
           "OpenIddict.Quartz": "6.2.0",
