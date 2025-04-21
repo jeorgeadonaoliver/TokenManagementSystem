@@ -1,4 +1,3 @@
-using Microsoft.AspNetCore.Hosting;
 using TMS.TokenGenerator.Server;
 
 public static class Program

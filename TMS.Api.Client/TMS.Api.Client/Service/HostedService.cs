@@ -9,9 +9,7 @@ namespace TMS.Api.Client.Service
         private readonly IServiceProvider _serviceProvider;
         public HostedService(IServiceProvider serviceProvider)
         {
-
             _serviceProvider = serviceProvider;
-
         }
         public async Task StartAsync(CancellationToken cancellationToken)
         {

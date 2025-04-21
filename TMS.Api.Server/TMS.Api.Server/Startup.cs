@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using OpenIddict.Client;
 using Quartz;
 using TMS.Api.Server.Contracts;
 using TMS.Api.Server.Implementation;
@@ -11,7 +10,6 @@ public class Startup
 {
     public void ConfigureServices(IServiceCollection services)
     {
-
         services.AddScoped<IHandleRequest, HandleRequest>();
         services.AddHttpContextAccessor();
 
@@ -20,7 +18,6 @@ public class Startup
         services.AddDbContext<DbContext>(options =>
         {
             // Configure the context to use sqlite.
-            //options.UseSqlite($"Filename={Path.Combine(Path.GetTempPath(), "openiddict-weytta-server.sqlite3")}");
             options.UseSqlite($"Filename={Path.Combine(Path.GetTempPath(), "openiddict-jaoliver-server.sqlite3")}");
             options.UseOpenIddict();
         });

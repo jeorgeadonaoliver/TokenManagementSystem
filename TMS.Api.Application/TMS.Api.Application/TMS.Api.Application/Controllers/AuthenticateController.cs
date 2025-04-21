@@ -1,4 +1,5 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
+using System.Net.Http.Headers;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using TMS.Api.Application.Contracts;
@@ -24,6 +25,9 @@ namespace TMS.Api.Application.Controllers
         [HttpGet("GetDataFrom7262Async")]
         public async Task<string> GetDataFrom7262Async()
         {
+
+            var requestToken = await _authentication.AuthenticateRequest("bakitmahabadapatangsecretkeyhaha");
+            _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", requestToken);
             var response = await _httpClient.GetAsync("https://localhost:7262/api/Authentication/GetToken");
 
             var content = await response.Content.ReadAsStringAsync();

@@ -1,18 +1,14 @@
-﻿using Microsoft.AspNetCore.Authentication;
-
+﻿using System.Security.Claims;
 using Microsoft.AspNetCore;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Negotiate;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using OpenIddict.Abstractions;
 using OpenIddict.Server.AspNetCore;
-using static OpenIddict.Abstractions.OpenIddictConstants;
-using System.Security.Claims;
-using Microsoft.AspNetCore.Authentication.Negotiate;
-using System;
 using TMS.Api.Server.Contracts;
 using TMS.Api.Server.CustomExecption;
-using Microsoft.AspNetCore.Mvc.TagHelpers;
+using static OpenIddict.Abstractions.OpenIddictConstants;
 
 namespace TMS.TokenGenerator.Server.Controllers;
 

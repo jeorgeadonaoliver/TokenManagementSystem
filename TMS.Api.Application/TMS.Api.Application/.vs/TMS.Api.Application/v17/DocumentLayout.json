@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\jaoliver\\source\\Git Projects\\TokenManagementSystem\\TMS.Api.Application\\TMS.Api.Application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC4C5A53-4A2B-47D6-8936-EF89CA0085B2}|TMS.Api.Application\\TMS.Api.Application.csproj|c:\\users\\jaoliver\\source\\git projects\\tokenmanagementsystem\\tms.api.application\\tms.api.application\\tms.api.application\\identity\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4C5A53-4A2B-47D6-8936-EF89CA0085B2}|TMS.Api.Application\\TMS.Api.Application.csproj|solutionrelative:tms.api.application\\identity\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EC4C5A53-4A2B-47D6-8936-EF89CA0085B2}|TMS.Api.Application\\TMS.Api.Application.csproj|c:\\users\\jaoliver\\source\\git projects\\tokenmanagementsystem\\tms.api.application\\tms.api.application\\tms.api.application\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC4C5A53-4A2B-47D6-8936-EF89CA0085B2}|TMS.Api.Application\\TMS.Api.Application.csproj|solutionrelative:tms.api.application\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C5A53-4A2B-47D6-8936-EF89CA0085B2}|TMS.Api.Application\\TMS.Api.Application.csproj|c:\\users\\jaoliver\\source\\git projects\\tokenmanagementsystem\\tms.api.application\\tms.api.application\\tms.api.application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C5A53-4A2B-47D6-8936-EF89CA0085B2}|TMS.Api.Application\\TMS.Api.Application.csproj|solutionrelative:tms.api.application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC4C5A53-4A2B-47D6-8936-EF89CA0085B2}|TMS.Api.Application\\TMS.Api.Application.csproj|c:\\users\\jaoliver\\source\\git projects\\tokenmanagementsystem\\tms.api.application\\tms.api.application\\tms.api.application\\identity\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC4C5A53-4A2B-47D6-8936-EF89CA0085B2}|TMS.Api.Application\\TMS.Api.Application.csproj|solutionrelative:tms.api.application\\identity\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,26 +30,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Authentication.cs",
               "DocumentMoniker": "C:\\Users\\jaoliver\\source\\Git Projects\\TokenManagementSystem\\TMS.Api.Application\\TMS.Api.Application\\TMS.Api.Application\\Identity\\Authentication.cs",
               "RelativeDocumentMoniker": "TMS.Api.Application\\Identity\\Authentication.cs",
               "ToolTip": "C:\\Users\\jaoliver\\source\\Git Projects\\TokenManagementSystem\\TMS.Api.Application\\TMS.Api.Application\\TMS.Api.Application\\Identity\\Authentication.cs",
               "RelativeToolTip": "TMS.Api.Application\\Identity\\Authentication.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T04:48:22.885Z",
+              "WhenOpened": "2025-04-21T07:58:22.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jaoliver\\source\\Git Projects\\TokenManagementSystem\\TMS.Api.Application\\TMS.Api.Application\\TMS.Api.Application\\Program.cs",
+              "RelativeDocumentMoniker": "TMS.Api.Application\\Program.cs",
+              "ToolTip": "C:\\Users\\jaoliver\\source\\Git Projects\\TokenManagementSystem\\TMS.Api.Application\\TMS.Api.Application\\TMS.Api.Application\\Program.cs",
+              "RelativeToolTip": "TMS.Api.Application\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T06:13:51.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AuthenticateController.cs",
               "DocumentMoniker": "C:\\Users\\jaoliver\\source\\Git Projects\\TokenManagementSystem\\TMS.Api.Application\\TMS.Api.Application\\TMS.Api.Application\\Controllers\\AuthenticateController.cs",
               "RelativeDocumentMoniker": "TMS.Api.Application\\Controllers\\AuthenticateController.cs",
               "ToolTip": "C:\\Users\\jaoliver\\source\\Git Projects\\TokenManagementSystem\\TMS.Api.Application\\TMS.Api.Application\\TMS.Api.Application\\Controllers\\AuthenticateController.cs",
               "RelativeToolTip": "TMS.Api.Application\\Controllers\\AuthenticateController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAxwCUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T01:42:50.378Z",
               "EditorCaption": ""

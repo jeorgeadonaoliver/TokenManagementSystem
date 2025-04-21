@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TMS.Api.Client.Service;
 
@@ -14,7 +15,11 @@ namespace TMS.Api.Client.Controllers
             _interactiveService = interactiveService;
         }
 
-        [HttpPost("StartAuthentication")]
+        
+
+        //[HttpPost("StartAuthentication")]
+        [Authorize]
+        [HttpGet("GetToken")]
         public async Task<IActionResult> StartAuthentication(CancellationToken cancellationToken)
         {
             try
@@ -43,33 +48,33 @@ namespace TMS.Api.Client.Controllers
             }
         }
 
-        [HttpGet("GetToken")]
-        public async Task<IActionResult> GetToken(CancellationToken cancellationToken)
-        {
-            try
-            {
-                var result = await _interactiveService.StartAuthenticationAsync(cancellationToken);
+        //[HttpGet("GetToken")]
+        //public async Task<IActionResult> GetToken(CancellationToken cancellationToken)
+        //{
+        //    try
+        //    {
+        //        var result = await _interactiveService.StartAuthenticationAsync(cancellationToken);
 
-                if (result == null)
-                {
-                    return BadRequest("Authentication process failed.");
-                }
+        //        if (result == null)
+        //        {
+        //            return BadRequest("Authentication process failed.");
+        //        }
 
-                return Ok(new
-                {
-                    Message = "Authentication process initiated. Check logs for details.",
-                    //Nonce = result.Nonce
-                    Response = result
-                });
-            }
-            catch (OperationCanceledException)
-            {
-                return BadRequest("The authentication process was aborted.");
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"An error occurred: {ex.Message}");
-            }
-        }
+        //        return Ok(new
+        //        {
+        //            Message = "Authentication process initiated. Check logs for details.",
+        //            //Nonce = result.Nonce
+        //            Response = result
+        //        });
+        //    }
+        //    catch (OperationCanceledException)
+        //    {
+        //        return BadRequest("The authentication process was aborted.");
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return StatusCode(500, $"An error occurred: {ex.Message}");
+        //    }
+        //}
     }
 }

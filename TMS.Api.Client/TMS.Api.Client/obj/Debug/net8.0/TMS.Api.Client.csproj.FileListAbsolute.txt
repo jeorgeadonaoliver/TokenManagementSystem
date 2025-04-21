@@ -301,3 +301,6 @@ C:\Users\jaoliver\source\Git Projects\TokenManagementSystem\TMS.Api.Client\TMS.A
 C:\Users\jaoliver\source\Git Projects\TokenManagementSystem\TMS.Api.Client\TMS.Api.Client\obj\Debug\net8.0\TMS.Api.Client.pdb
 C:\Users\jaoliver\source\Git Projects\TokenManagementSystem\TMS.Api.Client\TMS.Api.Client\obj\Debug\net8.0\TMS.Api.Client.genruntimeconfig.cache
 C:\Users\jaoliver\source\Git Projects\TokenManagementSystem\TMS.Api.Client\TMS.Api.Client\obj\Debug\net8.0\ref\TMS.Api.Client.dll
+C:\Users\jaoliver\source\Git Projects\TokenManagementSystem\TMS.Api.Client\TMS.Api.Client\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\jaoliver\source\Git Projects\TokenManagementSystem\TMS.Api.Client\TMS.Api.Client\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jaoliver\source\Git Projects\TokenManagementSystem\TMS.Api.Client\TMS.Api.Client\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

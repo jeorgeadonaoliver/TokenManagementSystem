@@ -1,5 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
+using Microsoft.IdentityModel.Tokens;
 using OpenIddict.Client;
 using TMS.Api.Client.Database;
 
@@ -75,16 +78,48 @@ public class StartUpService
                  });
              });
 
-        serviceCollection.AddHttpClient("TMS.Api.Application", 
-            client => { 
-                client.BaseAddress = new Uri("https://localhost:7264/"); 
-            }).ConfigurePrimaryHttpMessageHandler(() => 
-            {
-                return new HttpClientHandler
-                {
-                    ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator
-                };
+        //serviceCollection.AddHttpClient("TMS.Api.Application", 
+        //    client => { 
+        //        client.BaseAddress = new Uri("https://localhost:7264/"); 
+        //    }).ConfigurePrimaryHttpMessageHandler(() => 
+        //    {
+        //        return new HttpClientHandler
+        //        {
+        //            ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator
+        //        };
+        //    });
+        serviceCollection.AddHttpClient("TMS.Api.Application",
+            client => {
+                client.BaseAddress = new Uri("https://localhost:7264/");
             });
+
+        serviceCollection.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+        .AddJwtBearer(options =>
+        {
+            //options.Authority = "TMS.Api.Client";
+            //options.Audience = "TMS.Api.Application"; 
+            options.RequireHttpsMetadata = false;
+            options.TokenValidationParameters = new TokenValidationParameters
+            {
+                ValidateIssuer = true,
+                ValidIssuer = "TMS.Api.Client",
+
+                ValidateAudience = true,
+                ValidAudience = "TMS.Api.Application",
+
+                ValidateLifetime = true,
+                ValidateIssuerSigningKey = true,
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("bakitmahabadapatangsecretkeyhaha"))
+            };
+            options.Events = new JwtBearerEvents
+            {
+                OnAuthenticationFailed = context =>
+                {
+                    Console.WriteLine($"Authentication failed: {context.Exception}");
+                    return Task.CompletedTask;
+                }
+            };
+        });
 
 
         // Register the worker responsible for creating the database used to store tokens
@@ -103,12 +138,11 @@ public class StartUpService
         app.UseDeveloperExceptionPage();
 
         app.UseRouting();
+
+        app.UseAuthentication();
+        app.UseAuthorization();
+
         app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
-
-
-
-        //app.UseAuthentication();
-        //app.UseAuthorization();
 
         app.UseEndpoints(endpoints =>
         {

@@ -36,7 +36,6 @@ public class HandleRequest : IHandleRequest
         if (!hasConsent)
         {
             throw new ClientNotConfiguredException("The specified client application is not correctly configured.");
-
         }
 
         return true;
@@ -69,7 +68,6 @@ public class HandleRequest : IHandleRequest
 
         return Enumerable.Empty<Claim>();
     }
-
 
     private async ValueTask<object> GetDetailsFromDBAsync(OpenIddictRequest openIddictrequest)
     {

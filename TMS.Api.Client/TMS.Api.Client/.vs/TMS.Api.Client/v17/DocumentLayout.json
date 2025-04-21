@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{314D128A-46FF-43D6-952A-BFA613A5FBAC}|TMS.Api.Client.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{314D128A-46FF-43D6-952A-BFA613A5FBAC}|TMS.Api.Client.csproj|c:\\users\\jaoliver\\source\\git projects\\tokenmanagementsystem\\tms.api.client\\tms.api.client\\service\\interactivebackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{314D128A-46FF-43D6-952A-BFA613A5FBAC}|TMS.Api.Client.csproj|solutionrelative:service\\interactivebackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{314D128A-46FF-43D6-952A-BFA613A5FBAC}|TMS.Api.Client.csproj|c:\\users\\jaoliver\\source\\git projects\\tokenmanagementsystem\\tms.api.client\\tms.api.client\\service\\startupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{314D128A-46FF-43D6-952A-BFA613A5FBAC}|TMS.Api.Client.csproj|solutionrelative:service\\startupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{314D128A-46FF-43D6-952A-BFA613A5FBAC}|TMS.Api.Client.csproj|c:\\users\\jaoliver\\source\\git projects\\tokenmanagementsystem\\tms.api.client\\tms.api.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{314D128A-46FF-43D6-952A-BFA613A5FBAC}|TMS.Api.Client.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{314D128A-46FF-43D6-952A-BFA613A5FBAC}|TMS.Api.Client.csproj|c:\\users\\jaoliver\\source\\git projects\\tokenmanagementsystem\\tms.api.client\\tms.api.client\\service\\interactivebackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{314D128A-46FF-43D6-952A-BFA613A5FBAC}|TMS.Api.Client.csproj|solutionrelative:service\\interactivebackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{314D128A-46FF-43D6-952A-BFA613A5FBAC}|TMS.Api.Client.csproj|c:\\users\\jaoliver\\source\\git projects\\tokenmanagementsystem\\tms.api.client\\tms.api.client\\service\\hostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{314D128A-46FF-43D6-952A-BFA613A5FBAC}|TMS.Api.Client.csproj|solutionrelative:service\\hostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{314D128A-46FF-43D6-952A-BFA613A5FBAC}|TMS.Api.Client.csproj|c:\\users\\jaoliver\\source\\git projects\\tokenmanagementsystem\\tms.api.client\\tms.api.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{314D128A-46FF-43D6-952A-BFA613A5FBAC}|TMS.Api.Client.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{314D128A-46FF-43D6-952A-BFA613A5FBAC}|TMS.Api.Client.csproj|c:\\users\\jaoliver\\source\\git projects\\tokenmanagementsystem\\tms.api.client\\tms.api.client\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,16 +50,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "StartUpService.cs",
+              "DocumentMoniker": "C:\\Users\\jaoliver\\source\\Git Projects\\TokenManagementSystem\\TMS.Api.Client\\TMS.Api.Client\\Service\\StartUpService.cs",
+              "RelativeDocumentMoniker": "Service\\StartUpService.cs",
+              "ToolTip": "C:\\Users\\jaoliver\\source\\Git Projects\\TokenManagementSystem\\TMS.Api.Client\\TMS.Api.Client\\Service\\StartUpService.cs",
+              "RelativeToolTip": "Service\\StartUpService.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAmwHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T06:43:16.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "HostedService.cs",
               "DocumentMoniker": "C:\\Users\\jaoliver\\source\\Git Projects\\TokenManagementSystem\\TMS.Api.Client\\TMS.Api.Client\\Service\\HostedService.cs",
               "RelativeDocumentMoniker": "Service\\HostedService.cs",
               "ToolTip": "C:\\Users\\jaoliver\\source\\Git Projects\\TokenManagementSystem\\TMS.Api.Client\\TMS.Api.Client\\Service\\HostedService.cs",
               "RelativeToolTip": "Service\\HostedService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAYAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T03:56:20.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T06:43:14.45Z"
             },
             {
               "$type": "Document",
@@ -69,49 +81,34 @@
               "RelativeDocumentMoniker": "Controllers\\AuthenticationController.cs",
               "ToolTip": "C:\\Users\\jaoliver\\source\\Git Projects\\TokenManagementSystem\\TMS.Api.Client\\TMS.Api.Client\\Controllers\\AuthenticationController.cs",
               "RelativeToolTip": "Controllers\\AuthenticationController.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAgwDkAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAxwDAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T03:19:30.506Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jaoliver\\source\\Git Projects\\TokenManagementSystem\\TMS.Api.Client\\TMS.Api.Client\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\jaoliver\\source\\Git Projects\\TokenManagementSystem\\TMS.Api.Client\\TMS.Api.Client\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACUAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T14:02:08.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T14:02:08.366Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "StartUpService.cs",
-              "DocumentMoniker": "C:\\Users\\jaoliver\\source\\Git Projects\\TokenManagementSystem\\TMS.Api.Client\\TMS.Api.Client\\Service\\StartUpService.cs",
-              "RelativeDocumentMoniker": "Service\\StartUpService.cs",
-              "ToolTip": "C:\\Users\\jaoliver\\source\\Git Projects\\TokenManagementSystem\\TMS.Api.Client\\TMS.Api.Client\\Service\\StartUpService.cs",
-              "RelativeToolTip": "Service\\StartUpService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T13:38:30.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "InteractiveBackgroundService.cs",
               "DocumentMoniker": "C:\\Users\\jaoliver\\source\\Git Projects\\TokenManagementSystem\\TMS.Api.Client\\TMS.Api.Client\\Service\\InteractiveBackgroundService.cs",
               "RelativeDocumentMoniker": "Service\\InteractiveBackgroundService.cs",
               "ToolTip": "C:\\Users\\jaoliver\\source\\Git Projects\\TokenManagementSystem\\TMS.Api.Client\\TMS.Api.Client\\Service\\InteractiveBackgroundService.cs",
               "RelativeToolTip": "Service\\InteractiveBackgroundService.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAhwBYAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAgwBoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T02:31:41.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T02:31:41.19Z"
             },
             {
               "$type": "Document",
@@ -123,8 +120,7 @@
               "RelativeToolTip": "Model\\AuthenticateModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T02:45:10.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T02:45:10.399Z"
             },
             {
               "$type": "Document",
@@ -134,10 +130,9 @@
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\jaoliver\\source\\Git Projects\\TokenManagementSystem\\TMS.Api.Client\\TMS.Api.Client\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAABRwBoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-21T03:33:58.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T03:33:58.306Z"
             },
             {
               "$type": "Document",
@@ -149,8 +144,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-21T02:20:54.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T02:20:54.65Z"
             }
           ]
         }
